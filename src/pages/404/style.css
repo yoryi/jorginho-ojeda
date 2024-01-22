@@ -1,0 +1,7 @@
+.container404 {
+    display: flex;
+    place-items: center;
+    flex: 1;
+    justify-content: center;
+    padding-top: 50px;
+}

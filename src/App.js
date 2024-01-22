@@ -1,15 +1,37 @@
-import './App.css';
+import React from 'react';
+import { routesWebsite } from './config'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p className="App-link">
-          proyecto en proceso.
-        </p>
-      </header>
-    </div>
-  );
+  const renderApp = () => {
+    return (
+        <BrowserRouter>
+          <Routes>
+            {NavigateApp()}
+          </Routes>
+        </BrowserRouter>
+    );
+  }
+
+  return renderApp();
+  
+  function NavigateApp() {
+    return (
+      <Route>
+        {routesWebsite.map(RouteWithSubRoutes)}
+      </Route>
+    )
+  }
+
+  function RouteWithSubRoutes(config, index) {
+    return (
+      <Route
+        key={index}
+        {...config}
+        element={<config.layout render={config.render} />}
+      />
+    )
+  }
 }
 
 export default App;
