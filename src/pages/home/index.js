@@ -17,7 +17,7 @@ function App() {
       </div>
       <div className="container-p">
           <p className="text-content">
-            Desarrollador de productos diguitales web y movil.
+            Desarrollador de productos digitales web y movil.
           </p>
       </div>
       </>
