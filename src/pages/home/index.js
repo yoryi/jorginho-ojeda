@@ -10,15 +10,27 @@ function App() {
       <div className="container-image">
           <img src={APPIMAGE.EMOJI} alt='' className='image-emoji'/>
       </div>
+
+      <div className='main-p'>
       <div className="container-p">
           <p className="text-name">
             Hola, Soy Jorginho Ojeda 🤟
           </p>
       </div>
+      </div>
+      <div className='main-p'>
       <div className="container-p">
           <p className="text-content">
             Desarrollador de productos digitales web y movil.
           </p>
+      </div>
+      </div>
+      <div className='main-p'>
+      <div className="container-details">
+          <p className="text-details">
+            Tengo experiencia mas de 2 años desarrollando y haciendo plataformas virtuales en el sector educativo, financiero.
+          </p>
+      </div>
       </div>
       </>
     );
