@@ -67,3 +67,33 @@
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .text-content {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .container-p {
+    width: 350px;
+    display: flex;
+    padding-top: 0vh;
+    justify-content:center;
+  }
+  .text-details {
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .container-details {
+    width: 350px;
+    display: flex;
+    padding-top: 6vh;
+    justify-content:center;
+  }
+}
