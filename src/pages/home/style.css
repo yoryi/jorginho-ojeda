@@ -12,6 +12,13 @@
   justify-content:center;
 }
 
+.container-button {
+  background-color: black;
+  border: 0px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
 .main-p {
   display: flex;
   justify-content:center;
@@ -49,6 +56,14 @@
 .text-details {
   margin: 0px;
   font-size: 16px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text-button {
+  margin: 0px;
+  color: white;
+  font-size: 18px;
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
 }
