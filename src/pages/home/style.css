@@ -3,3 +3,29 @@
   justify-content:center;
   flex: 1;
 }
+
+.container-image {
+  flex: 1;
+  display: flex;
+  padding-top: 100px;
+  justify-content:center;
+}
+
+.image-emoji {
+  height: 120px;
+  width: 120px;
+}
+
+/* textos  */
+.text-name {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.text-content {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+  /* padding-top: 0px; */
+}

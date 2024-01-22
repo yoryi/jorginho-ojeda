@@ -1,4 +1,5 @@
 import {Navbar} from '../../components';
+import APPIMAGE from '../../constants/image';
 import './style.css';
 
 function App() {
@@ -6,14 +7,17 @@ function App() {
     return (
       <>
       <Navbar />
+      <div className="container-image">
+          <img src={APPIMAGE.EMOJI} alt='' className='image-emoji'/>
+      </div>
       <div className="container-p">
-          <p className="App-link">
-            Hola, me soy Jorginho Ojeda
+          <p className="text-name">
+            Hola, Soy Jorginho Ojeda 🤟
           </p>
       </div>
       <div className="container-p">
-          <p className="App-link">
-            Hola, me soy Jorginho Ojeda
+          <p className="text-content">
+            Desarrollador de productos diguitales web y movil.
           </p>
       </div>
       </>
