@@ -1,0 +1,15 @@
+.container-navbar {
+  display: flex;
+  background-color: beige;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.text-email {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.text-select {
+  padding-right: 15px;
+}
