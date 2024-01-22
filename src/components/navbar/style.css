@@ -9,8 +9,11 @@
 
 .text-email {
   font-weight: bold;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .text-select {
+  cursor: pointer;
   padding-right: 15px;
+  font-family: 'Nanum Gothic', sans-serif;
 }

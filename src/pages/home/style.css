@@ -21,11 +21,12 @@
   font-size: 18px;
   font-weight: bold;
   padding-top: 15px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .text-content {
   font-size: 32px;
   font-weight: bold;
   margin: 0px;
-  /* padding-top: 0px; */
+  font-family: 'Nanum Gothic', sans-serif;
 }
