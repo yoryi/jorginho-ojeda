@@ -12,10 +12,10 @@ function Navbar() {
 
         <div style={{ flexDirection: 'row', display: 'flex' }}>
           <p className="text-select">
-            contactos
+            Contactos
           </p>
           <p className="text-select">
-            acerca de mi
+            Acerca de mi
           </p>
         </div>
       </div>
